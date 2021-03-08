@@ -1,7 +1,6 @@
 package lecture2.product;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 
@@ -10,7 +9,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-@Scope("")
 public class Cart {
     private ProductRepository repository;
     private List<Product> productList = new ArrayList<>();

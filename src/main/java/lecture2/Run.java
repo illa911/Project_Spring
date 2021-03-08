@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import java.io.BufferedReader;
 import java.io.InputStream;
